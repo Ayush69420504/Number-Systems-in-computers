@@ -1,0 +1,96 @@
+<!Doctype = html>
+<html>
+<head>
+<link rel = "stylesheet" href = "C:\Users\ayush\Desktop\Number-System-in-computers\foralldata.css"></link>
+</head>
+<body>
+<div id="google_translate_element" align = "center"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<h2>Now lets come to the main question of:</h2>
+<p>
+<ol>
+<li>How are they represented</li>
+<li>How do you change from one form to another</li>
+</ol>
+</p>
+<h2>They are represnted in the following manner:</h2>
+<p>
+<ol>
+<li>Decimal number system.<br>
+<img src = "C:\Users\ayush\Desktop\Number-System-in-computers\Images\base10.jpg"></img></li>
+<li>Binary number system.<br>
+<img src = "C:\Users\ayush\Desktop\Number-System-in-computers\Images\base2.jpg"></img></li>
+<li>Octal number system<br>
+<img src = "C:\Users\ayush\Desktop\Number-System-in-computers\Images\base8.jpg"></img></li>
+<li>HexaDecimal number system<br>
+<img src = "C:\Users\ayush\Desktop\Number-System-in-computers\Images\base16.jpg"></img></li>
+</ol>
+<h2>Thus if they are put in a table with the range of HexaDecimal being the maximum then:</h2>
+<img src = "C:\Users\ayush\Desktop\Number-System-in-computers\Images\table.jpg"></img></li>
+</p>
+<p>
+<h2>How do you convert from one form to another ?</h2>
+<p>
+There are 4 number systems of computers, now each can be converted to 3 other types and thus we have 4 * 3 = 12 + 2 (2 other types) = 14 types of conversions.They are:<br>
+<ol>
+<li>Decimal to binary<br>
+= Here as we have to convert from base10 to base2 thus we divide the number by 2 and store the remainder and then the last
+remainder is the first digit of the binary number and first remainder is the last digit of the binary number. We call it as
+Msb(Most significant bit) to Lsb(Least significant bit). Now we arange it in msb to lsb</li>
+<li>Binary to decimal<br>
+= Here as we convert from base2 to base10 thus we start operating from lsb to msb. We take that particular digit and
+then multiply it with the respective power of 2. At lsb it is 0 then it increases as we move towards the msb. Thus it is
+the length of the number if calculated from 1 or lenght in natural number system - 1.</li>
+<li>Decimal to octal<br>
+= Here as we have to convert from base10 to base8 thus we divide the base10 number by 8 and keep storing the remainder.
+Thus the last remainder becomes the first digit of the octal number and the first remainder becomes the last digit of 
+the octal number. Now we arrange it in msb to lsb pattern.</li>
+<li>Octal to decimal<br>
+= Here as we have to convert from base8 to base10 thus we start operating from lsb to msb. We take the digit and then
+multiply it with the correct power of 8, at lsb power of eight is 0 and increases with movement to msb. And then their sum 
+is the decimal number.</li>
+<li>Decimal to hexadecimal<br>
+= Here you convert by dividing the decimal number by 16 and then finding the remainder which is in decimal then we 
+convert it to hexadecimal by the table shown above. Basically after 9 you represnet the numbers with characters of 
+english in their traditinal order.</li>
+<li>HexaDecimal to Decimal<br>
+= Here we take each character of the hexanumber from lsb and then multiply it with powers of 16 which increases upon
+moving towards the msb. At lsb power is 0. Thus the sum of the product of each of the characters gives the result. If
+we have to multiply a letter then use its decimal value</li> 
+<li>Octal to binary<br>
+= Here we have to take each character of the octal number then we have to perform a decimal to binary conversion on it
+then we add it as a string and not a number so the octal number turns into a string of its binary form of characters
+the arrangmenet is msb to lsb. Also the binary part should be of three chararcters. if less just add zeros in front.</li>
+<li>Binary to octal<br>
+= Here we take a three bit part of the binary string from lsb and then convert it to decimal and then add it as a 
+string from the lsb. Thus each part is then properly put and thus the octal number is formed.</li>
+<li>HexaDecimal to binary<br>
+= Here we have to take each character of the HexaDecimal number then we have to perform a decimal to binary conversion on it
+then we add it as a string and not a number so the HexaDecimal number turns into a string of its binary form of characters
+the arrangmenet is msb to lsb. Also the binary part should be of four chararcters. If less just add zeros in front.</li>
+<li>Binary to HexaDecimal<br>
+= Here we take a three bit part of the binary string from lsb and then convert it to decimal and then add it as a 
+string from the lsb. Thus each part is then properly put and thus the octal number is formed.</li>
+<li>Octal to HexaDecimal<br>
+= Here we convert the octal to binary then the binary to hexadecimal.</li>
+<li>HexaDecimal to Octal<br>
+= Here we convert the hexadecimal to binary then the binary to octal.</li>
+<li>Fractional decimal to fractional binary<br>
+= Here we convert the integer part of the decimal to binary which is integer in the normal way but to convert the fractional
+part we multiply the fractional decimal part then seperate/take its integer part and then add it from msb and form another
+part which is then written with a after the integer part with a dot. Thus integer part becomes integer and that part beceomes the fractional part. This operation can be repeated as many times as you want but 8 is max.</li>
+<li>Fractional binary to Fractional decimal<br>
+= Here you take the integer binary part and convert it to decimal in the normal manner. Then we seperate the respective 
+fractional binary digit from msb and then multiply it with the succesive negative exponent of 2. It starts from -1 and goes
+upto lsb thus at lsb we have the highest negative exponent. Thus their sum gives rise to the fractional decimal part</li>
+</ol>
+</p>
+<h2>Next we will look at how to code programs which convert the forms from one to another. It is in java as many schools
+still use java to teach students</h2>
+</body>
+</html>
