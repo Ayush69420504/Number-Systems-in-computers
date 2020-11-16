@@ -1,0 +1,12 @@
+This is easy to do.
+1.Accept the binary fraction in string as it makes shit a ton lot easier
+3.If we take in decimal variable then it will be more easy that is if we leave the small value
+error when doing in a number variable
+4.That error goes out if taken in string
+5.Thats it convert the string for the whole number part piece by piece into int
+6.Use accurate indiactors to succesfully direct the operation flow
+7.Set the source number and power indicator properly
+8.Compute job done
+9.Skip the part for the dot as in string it will get counted
+10.For the decimal part we can start multiply each with negative exponents of 2 and decimal part done
+11.Add two parts together and job done print it.

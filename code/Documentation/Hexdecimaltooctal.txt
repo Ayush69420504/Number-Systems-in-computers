@@ -1,0 +1,7 @@
+The algorithm is pretty simple
+Algorithm
+1.Accept the hexa decimal value
+2.Use hexa decimal to binary algorithm
+3.then use binary to octal algorithm
+4.Display the octal.
+5.very simple.

@@ -1,0 +1,21 @@
+This is a program or to be accurate a package of programs which can perform all 13 possible number format conversions
+in java. It is uses different types of logic and functions to achieve it.
+
+Though point ot be noted.
+It does not use any kind of inbuilt function that can result to the answer at once. Since that is nothing more than
+CHEATING.
+
+We will use CUSTOM LOGIC to do the programs, it really helps us to understand how these operations work in computer terms. Plus CUSTOM LOGIC is cool and epico.
+
+Note:
+This is not copied from any online java program site, and it will not exactly match, and many programs are not even found
+on internet. Very strange, i know.
+
+Key feauters of the java package.
+1. It is represents every function as a seperate .java (java file)
+2. There is a single parent java file which can run all the functions simultaneously.
+3. Since each function has it's own java class, there is a lot of usage flexibility,
+We can call a class to perform a single function we want or we can call the parent class to call all Functions.
+4. Programs are made in the most memory efficient way possible and even first microproccessors running 2800 nm dies 
+with core clocks of 0.1 mhz can run it.
+5. There is total of 577 lines of code, shared unevenly by the 15 java files of the package.

@@ -1,0 +1,16 @@
+Binary to Octal
+This is 
+genuinely
+interesting
+A first case of nested loops
+Algorithm
+1.Accept a binary value in integer form through any integer varibale (long
+is recommended)
+2.Now as we need to both seperate a 3 bit part and convert it to decimal and
+add it to create the division value which gets added in a pattern manner to form
+that octal value need two loops one after another i.e A nested loop.
+3.Now create a while loop to Seperate a 3 bit part by % 1000
+4.Now we have to convert that 3 bit binary to octal. So apply the binary to
+decimal changing algorithm within the while loop in the main while loop
+5.Now use formula = Octalnumber = decimalpart * (variable type)Math.pow(10,p) + Octalnumber;
+6.Vollia after completion of the main loop we get the answer in octal type.

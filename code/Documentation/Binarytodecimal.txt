@@ -1,0 +1,11 @@
+Conversion of binary to decimal.
+It is pretty easy if you know how to convert your thoughts and english algorrithm into computer language.
+
+So the algorithm is as follows:
+1.Accept a integer value and in an long variable, however you can take it in any type of integer variable but since binary values are usually long, long with a size of 64 bits and a range of -2^63 and 2^63 - 1 is quite enough.
+2.Then create a while loop.
+3.In it we divide the binary number and find its each digit form r.h.s (number % 10)
+4.Then we multiply it with its respective power for place and then add it to a variable of any type which succesively forms the decimal number.
+5.And we have to divide the binary number by 10, so that operation goes as expected and the loop has a termination point.
+
+Also for the power changing, we can use Math.pow(2,p) and explicit convert it to long and make a value initialized as p to which 1 is added with succesive loops and thus each binary digit gets it proper decimal value. 

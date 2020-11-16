@@ -1,0 +1,18 @@
+Binary to Hexadecimal
+This is also quite easy
+and
+enjoyable to do.
+Algorithm
+1.Accept the binary value as long variable in value int
+2.Now Create a nested loop
+3.In the first loop make a while loop which will works until binary string 
+is not equal to 0.
+4.Then find the remainder on dividing by 10000;
+5.Then create another while loop which converts it into a decimal value by
+using the binary to decimal value converting algoritm.
+6.Now we create a string variable list = "0123456789ABCDEF";
+7.now we use the decimal value as its radixx for char at function to
+seperate the chexadecimal character for the 4 bit part
+8.Now as it is string add them linearly.
+9.Thus after all the operation the program is completed and we have the hexa
+decimal value.

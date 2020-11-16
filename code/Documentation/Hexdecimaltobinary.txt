@@ -1,0 +1,14 @@
+Hexa decimal to binary
+This is also
+quite tricky to understand
+but is easy
+Algorithm
+1.Accept the hexa decimal string
+2.Now make a nested loop.
+3.The first one is a for loop in which we seperate the charcter from first
+by using charat function.
+4.Now in the child while loop, we find the index value of the character obtained
+by the function
+5.Now we use that value to find the binary value by decimal to binary algorithm
+6.Now we use formula binarynumber = binarynumber * Math.pow(10,4) + binarypart;
+to find the binary string in correct order.

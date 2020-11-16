@@ -1,0 +1,25 @@
+Hexa Decimal to Decimal
+This is bit complicated
+and
+interesting at the same time
+Algorithm
+1.Accept a hexdecimal string from the user, since a hexdecimal umber can have
+both characters and numbers string is best.
+2.Now make a for loop whose changing value is a variable name of your choice
+its range is hexdm number - 1, since the index number of a character of a string
+starts with 0 its total range is lenght considered from 1 - 1;
+3.To be logical we are using lenght(); function to find the lenght it finds it in
+natural number format and needs to be converted to whole number list thus the
+expression
+4.A step of 1 with every operation
+5.Now sepearte the character from string by charAt() function whose radixx is
+the vraible of the for loop.
+6.Now we have the n charcter of the loop, make a list of type string which
+is "0123456789ABCDEF";
+7.now take this character as a radixx and use it as an argument to find the
+decimal value for the character.
+8.Yay we have the decimal value now multiply it with the succesive powers of 10
+in formula decimal = hexdivision * (variable type)Math.pow(10,p) + decimal;
+9.Thus after the for loop is completed then the decimal value is obtained
+10.There is no need of dividing the source value here as we linear scan the 
+target variable, not mathematically find it.

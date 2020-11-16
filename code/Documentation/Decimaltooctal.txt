@@ -1,0 +1,11 @@
+Decimal to Octal:
+This is pretty easy
+with a
+hard formula
+Algorithm
+1.Accept a Decimal number
+2.Create a while loop in which operation works.
+3.Find remainder upon dividing the decimal number by 8
+4.That rem is key value use it to create the octal string.
+5.Formula = octalnumber = rem * (long)Math.pow(10,p) + octalumber;
+6.now divide decimal number by 8 to structure the operation properly.

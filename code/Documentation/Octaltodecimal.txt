@@ -1,0 +1,10 @@
+Octal to Decimal
+Pretty easy
+Algortihm
+1.Accept the Octal value.
+2.Now create a while loop which works on the value of octal value if it is 
+not == 0
+3.Now find remainder of octal number when divide by 10.
+4.Now multiply it with the correct power of 8 with succesive digit seperation.
+5.Divide the number by 10 to shorten and remove the operated digit and thus increase
+the operation.

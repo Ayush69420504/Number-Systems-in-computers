@@ -1,0 +1,17 @@
+Octal to Binary
+This one is
+that kid at school who
+explains a easy thing
+in a complicated manner.
+Algorithm
+1.Accept a octal number
+2.We need a nested loop.
+3.Create a while loop with the condition that works until octal number is not
+equal = 0
+4.Divide the octal number by 10 and find the remainder thus you just separate
+a digit from there.
+5.Now convert that into a binary string.
+6.Now the tricky part is to add them together and create a binary pattern.
+7.So we will use = Binarystring = binarypart * (variable type)Math.pow(10,p) + Binarystring;
+8.Thus it will create a 3 bit sapce for the three bit pattern to be added and
+thus will create the octal number.

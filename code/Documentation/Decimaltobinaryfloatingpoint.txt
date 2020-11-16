@@ -1,0 +1,8 @@
+This is simple and easy to do
+1.Seperate the natural/whole number part and the decimal part
+2.Convert the natural num part to binary using decimal to binary algorithm
+3.Convert the decimal part to decimal binary using the algoritm shown below
+3.As we need the integer part of the decimal number after multiplying by 2 and after being greater than
+1 then revert its source value to decimal so
+4.Multiply the decimal by 2
+5.then get the integer value and change to decimal only if it is above 1 or not

@@ -1,0 +1,13 @@
+This is the main program which calls all the function at once 
+in the program to perform tasks at user's will.
+Note:
+1.Users switch through different options by numbers
+2.Users can work more than once by deciding over yes or no by a clever
+looping trick using if else statements.
+Algoritm
+1.display options
+2.let user chose option
+3.let task be performed acccording to user wish
+4.let messages be shown if erroe in choice is detected
+5.create a option for user if they want to continue or fuck off by y or n 
+commands.

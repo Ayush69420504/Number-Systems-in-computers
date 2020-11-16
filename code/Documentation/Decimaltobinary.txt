@@ -1,0 +1,14 @@
+Converting from Decimal to Binary:
+It is pretty simple logic
+with a
+pretty hard formula to create the binary pattern.
+Algorithm
+1.Accept a integer value in long variable (long is recommended so that it
+can accept large numbers)
+2.Create a while loop on basis that it works until decimal value is not
+equal to 0
+3.now seperate the 1 or 0 remanider by % 2 function
+4.Now use formula (binarynumber = remanider * (long)Math.pow(10,p) + binarynumber;
+5.Upon succesive looping it creates the binary string from m.s.b to l.s.b;
+6.Divide the decimal at last by 2 to perform operation properly and create
+a end stateent for the loop.

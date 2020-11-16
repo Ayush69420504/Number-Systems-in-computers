@@ -1,0 +1,6 @@
+This is also pretty easy.
+Algrorithm
+1.Accept octal number
+2.Apply octal to binary algorithm
+3.Binary to hexa decimal algorithm
+4.Display value.

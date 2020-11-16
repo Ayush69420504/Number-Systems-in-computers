@@ -1,0 +1,20 @@
+Decimal to Hexadecimal
+This one is pretty dangerous to think of
+but at the same time if we understand it
+then it is pretty easy.
+Algorithm
+1.Accept the decimal value
+2.Then create a while loop which works while decimal number is not equal to 0
+3.in that find the remainder upon dividing by 16
+4.Then comes the interseting part, as a hexadecimal number has both number and
+character thus we have to connvert it into a string format.
+5.We can initilize a list string of value = "0123456789ABCDEF";
+6.We can find the correct hexnumber by using list.charAt((int)remanider);
+7.charat allows us to take the charcter from the string of the desired radix
+8.The radix or the argument value is always in int value if the rem is in 
+different varible type, perform an explicit conversion.
+9.Thus we add it as a char type to a string which is the answer, since it is a 
+string data type, no complex formulae is required to maintain a pattern, only
+correct placement.
+10.Do not forget to divide the decimal by 16 in order to continue the operation
+properly.
