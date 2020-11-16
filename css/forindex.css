@@ -1,0 +1,17 @@
+body 
+{
+	background-color: rgb(194 ,202 ,208);
+	background-size: 100% 100%;
+	font-family: sans-serif ,arial;
+}
+div.Title
+{
+	border-style: solid;
+	border-size: 1px;
+	border-color: black;
+	background-color: rgb(231 ,113 ,125);
+}
+hr
+{
+	border-color: Black;
+}
